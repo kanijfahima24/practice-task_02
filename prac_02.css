@@ -1,0 +1,554 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+body{
+font-family: 'Mulish', sans-serif;
+ margin:30px auto;
+  padding: 0;
+ box-sizing: border-box;
+ max-width: 1400px;
+ width: 90%;
+ /* the page will be of 90% of the viewport,as long as the width is within 1400px. If viewport becomes very big , it will no longer be 90% , rather will be very short and balanced! */
+
+}
+/* navigation */
+.first{
+margin: 20px auto;   
+display: flex;
+justify-content: space-between;
+max-height: 80px;
+/* border: 1px solid black; */
+align-items: center;
+}
+.one{
+margin-left: 20px;
+display: flex;
+align-items: center;
+/* min-height: 15px; */
+}
+.one img{
+width: 50px;
+height: 50px;
+}
+.one p{
+margin-left: 15px;
+font-size: 35px;   
+font-weight: 800;
+}
+.two ul{
+list-style: none;
+}
+.two ul li{
+font-size: 20px;
+font-weight: 350;
+margin-right: 20px;
+display: inline-block;
+}
+.two ul a{
+text-decoration: none;
+/* margin-right: 20px;
+display: flex;*/
+}
+.two .cloud{
+font-weight: 700;
+}
+.two .cloud a{
+color: rgb(255, 84, 0);
+}
+
+
+.second{
+margin: 30px auto;
+background-image: linear-gradient(rgba(19,19,24,0.8),rgba(19,19,24,0)), url(/Image/Group\ 13\ \(1\)\ \(1\).png);
+background-repeat: no-repeat;
+
+/* bachground size & position helps to cover the full area of background for the image */
+
+background-position: center;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* text-align: center; */
+height: 500px;
+/* max-width: 1200px; 
+width: 90%; */
+
+border-radius: 16px;
+border: none;
+/* padding: 40px; */
+}
+.second h2{
+color: white;
+font-weight: 700;
+font-size: 60px;
+margin: 20px auto 10px auto;
+}
+.second p{
+text-align: center;
+color: white;
+/* max-width: 70%; */
+/* display: block; */
+}
+.second .three{
+display: flex;
+justify-content: space-between;
+background-color: rgba(255, 255, 255, 0.30);
+padding: 12px;
+height:50px;
+width: 750px;
+}
+.three button{
+background-color: rgb(255, 84, 0);
+border-radius: 12px;
+width: 170px;
+border: none;
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+color: white;
+padding-left: 10px;
+}
+.three input,select{
+border-radius: 12px;
+width: 170px;
+color: rgba(19,19,24,0.50);
+padding-left: 10px;
+border: 1px solid grey;
+font-size: 16px;
+}
+
+.container{
+display: flex;
+margin: 40px auto;
+
+/*without declaring width, margin auto doesn't work horizontally.respectively for vertical. Here width is declared universally */
+
+height: 550px;
+justify-content: space-between;/* it is useful tahn using gap, cause, to maintain the gap, image will come to the left side.*/
+}
+
+.text-cont{
+display: block; /* same as flex-direction: coloumn in this case. */
+margin-left: 0;
+width: 50%;
+}
+.text-cont h1{
+margin-top: 10px;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 30px;
+}
+.text-cont p{
+max-width: 90%;
+/* border: 1px solid black; */
+color: rgba(19,19, 24,0.7);
+margin-bottom: 20px;
+
+}
+.text-cont ul li{
+margin-bottom: 20px;
+position: relative ;
+right: 20px;
+/* padding-left:-15px; */
+color: rgba(19,19, 24,0.7);
+}
+/* following step is to reduce the gap between bullet point and text  */
+.text-cont ul li span{
+position:relative; 
+right: 8px;
+}
+.text-cont button{
+/* justify-content: flex-end; */
+margin-top: 160px;
+border-radius: 16px;
+width: 170px;
+height: 50px;
+background-color:rgb(255, 84, 0);
+color: white;
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+border: none;
+}
+/* .img-cont{
+ width: 30%;
+} */
+.img-cont img{
+object-fit: contain; 
+/* to activate cover, an absolute value for width and height , at least declaring 100% width for both container and image is needed. but content can work with ratio. */
+border-radius: 16px;
+}
+
+.third{
+display: block;
+/*align-items: center;*/
+text-align: center;
+}
+.third h1{
+font-size: 40px;
+font-weight: 800;
+margin-top: 100px;
+}
+.third p{
+margin-bottom: 30px;
+}
+
+.third .img{
+/* justify-content: center; */
+/* align-items: center; */
+font-size: 25px;
+font-weight: 800;
+color: white;
+border-radius: 16px;
+background-position: center;
+background-size: cover;
+}
+.four{
+display: flex;
+justify-content: space-between;
+height: 300px;
+/* border: 1px solid black; */
+/* gap: 15px; */
+margin-bottom: 20px;
+
+}
+.four #grid-1{
+width: 50%;
+margin-right: 18px;
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Image/Rectangle 5.png');
+
+}
+.four #grid-2{
+width: 50%;
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Image/Rectangle 8.png');
+}
+.five{
+display: flex;
+height: 400px;
+justify-content: space-between;
+/* border: 1px solid black; */
+margin-bottom: 20px;
+
+}
+.five #grid-3{
+width: 33.33%;
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)), url('Image/Rectangle 6.png');    
+margin-right: 18px;
+}
+.five #grid-4{
+width:33.33%;
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Image/Rectangle 7.png');    
+margin-right: 18px;
+}
+.five #grid-5{
+width: 33.33%;
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Image/Rectangle 9.png');
+}
+.six{
+display: flex;
+height: 310px;
+justify-content: space-between;
+/* border: 1px solid black; */
+margin-bottom: 20px;
+
+}
+.six #grid-6{
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Image/Rectangle 11.png');   
+margin-right: 18px;
+width: 50%;
+}
+.six #grid-7{
+width: 50%;
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)), url('Image/Rectangle 10.png');    
+}
+.third  .kage{
+ /* margin top can also be used    */
+position: relative;
+top:200px;
+
+}
+.third .ninshu{
+position: relative;
+top: 150px;    
+}
+
+.fourth{
+display: flex;
+flex-direction: column;
+/* justify-content: center;   */
+/* align-items: center;   */
+}
+.fourth h3{
+font-size: 25px;
+font-weight: 800;
+margin: 40px auto 20px;   
+}
+.fourth p{
+color: rgba(19, 19,24,0.7);
+text-align: center;
+}
+
+.fifth{
+display: block;
+margin-top: 30px;
+}
+.fifth article{
+display: flex;
+/* justify-content: space-between; */
+}
+.fifth .seven{
+background-color: rgba(251, 181, 99, 0.10);
+border: 1px solid rgba(251, 181, 99, 0.25);
+margin-right: 20px;
+}
+.fifth .eight{
+background-color: rgba(41, 206, 246, 0.05);
+border: 1px solid rgba(41, 206, 246, 0.20);
+}
+.fifth .nine{
+max-width: 40%;
+/* justify-content: center; */
+height: 250px;
+margin: 25px auto;
+padding: 30px;
+display: flex;
+flex-direction: column;
+
+background-color: rgba(233, 68, 68, 0.10);
+border: 1px solid rgba(233, 68, 68, 0.25);
+border-radius: 16px;
+}
+.seven, .eight{
+display: block;
+border-radius: 16px;
+width: 50%;
+padding: 30px;
+height: 250px;
+}
+.fifth img{
+/* width: 30%; */
+align-items: baseline;
+height: 60px;
+width: 60px;
+margin-bottom: 10px;
+}
+.fifth h3{
+margin-left: 0px;
+max-width: 90%;
+font-size: 25px;
+font-weight: 800;
+margin-bottom: 15px;
+/* color: rgba(5, 5, 5, 0.7); */
+}
+.fifth p{
+width: 80%;
+color: rgba(19, 19,24,0.7);
+}
+
+.sixth{
+display: flex;
+margin: 60px auto 30px;
+height: 430px; 
+
+/* justify-content: space-between;    */
+}
+.text-cont-2{
+display: block;
+ margin-right: 20px;/*---- just to look like the main one */
+
+ /* width: 40%; */
+/* border: none; */
+}
+.sixth .video{
+max-width:60%;
+
+/* max-width: 200px; */
+/* height: auto; */
+/* margin-right: 0; */
+
+}
+.video video{
+max-width: 100%;
+
+/* for div tag, use how much width wanted of the box for the video. And for video tag, video, max width would be 100% so that video can't exceed the size of its container. In that case, object -fit: contain is not needed!! */
+/* object-fit: contain; */
+/* height: auto; */
+/* overflow: hidden; */
+/* margin-right: 0; */
+}
+.sixth h1{
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 10px;
+margin-top: 0;
+width: 75%;
+}
+.sixth p{
+color: rgba(19, 19,24,0.7);
+margin-bottom: 25px;
+width:90%;
+}
+.sixth ul{
+color: rgb(19, 19, 24);
+font-size: 15px;
+font-weight: 700;
+position: relative;
+right: 20px;
+}
+.sixth ul span{
+position: relative;
+right: 8px;   
+}
+.sixth .yukimi{
+margin-top: 90px;
+border-radius: 16px;
+width: 170px;
+height: 50px;
+background-color:rgb(255, 84, 0);
+color: white; 
+border: none;
+font-size: 16px;
+font-weight: 700;  
+}
+
+.seventh{
+display: flex;
+margin: 100px auto;
+height: 430px;
+justify-content: space-between;
+}
+.seventh .ten{
+width: 35%;
+display: flex;
+flex-direction: column;
+border: 1px solid rgb(255, 84, 0);
+border-radius: 16px;
+padding: 20px;
+
+}
+.ten h2{
+font-size: 24px;
+font-weight: 800;
+margin-bottom: 10px;
+}
+.ten p{
+ color: rgba(19, 19,24,0.7);   
+margin-bottom: 10px;
+}
+.ten hr{
+margin-bottom: 15px;
+width: 100%;
+color: rgba(19, 19, 24, 0.04) ;
+}
+.ten input{
+width:95%;
+max-width: 420p;
+padding-left:10px;
+background-color: rgba(19, 19, 24, 0.05);
+border-radius: 8px;
+color: rgba(19, 19, 24, 0.30);
+font-size: 16px;
+font-weight: 400;
+height:55px;
+border: none;
+}
+.ten button{
+width: 100%;
+height: 53px;
+margin-top: 65px;
+background-color: rgb(255, 84, 0);
+font-size: 20px;
+font-weight: 700;
+border-radius: 16px;
+border: none;
+text-align: center;
+color: white;
+}
+.eleven{
+width: 57%;
+background-image: url(/Image/Rectangle\ 8\ \(1\).png);
+border-radius: 16px;
+background-position: center;
+background-size: cover;
+}
+.twelve{
+background-color:rgb(255, 84, 0);
+border-radius: 16px;
+text-align: center;
+width: 60%;
+height: 100px;
+padding-top: 15px;
+
+position: relative;
+/* left: 270px;
+top: 220px; */
+left: 39%;
+top: 57%;
+transform: rotate(-20deg);
+}
+.twelve span{
+font-size: 25px;
+font-weight: 400;
+color: white;
+/* margin-bottom:5px; */
+}
+.twelve h2{
+font-size: 30px;
+font-weight: 800; 
+color: white; 
+margin-top: 5px;  
+}
+
+.eighth{
+width: 100%;
+background-color: rgba(19, 19,24,0.07);
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 250px;
+}
+.thirteen{
+display: flex;
+margin-bottom: 5px;
+align-items: center;
+font-size: 35px;
+font-weight: 800;
+margin-top: 15px;
+
+}
+.thirteen img{
+width: 50px;
+height: 55px;
+margin-right: 10px; 
+
+}
+.eighth p{
+margin: 15px 0;
+color: rgba(19, 19, 24, 0.8);
+font-size: 16px;
+font-weight: 300;
+}
+.fourteen{
+display: flex;
+height: 30px;
+width: 20%;
+justify-content: center;
+/* border: 1px solid black; */
+}
+.fa-brands::before{
+font-size: 30px;
+margin-right: 30px;
+
+}
+
+.eighth hr{
+/* color:  solid black; */
+background-color: black;
+width: 60%;
+height: 1px;
+max-width: 1000px;
+align-items: center;
+margin-bottom: 10px;
+}
+
