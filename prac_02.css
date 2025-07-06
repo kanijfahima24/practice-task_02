@@ -58,7 +58,7 @@ color: rgb(255, 84, 0);
 
 .second{
 margin: 30px auto;
-background-image: linear-gradient(rgba(19,19,24,0.8),rgba(19,19,24,0)), url(/Image/Group\ 13\ \(1\)\ \(1\).png);
+background-image: linear-gradient(rgba(19,19,24,0.8),rgba(19,19,24,0)), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
 background-repeat: no-repeat;
 
 /* bachground size & position helps to cover the full area of background for the image */
@@ -216,12 +216,12 @@ margin-bottom: 20px;
 .four #grid-1{
 width: 50%;
 margin-right: 18px;
-background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Image/Rectangle 5.png');
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Images/Rectangle 5.png');
 
 }
 .four #grid-2{
 width: 50%;
-background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Image/Rectangle 8.png');
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Images/Rectangle 8.png');
 }
 .five{
 display: flex;
@@ -233,17 +233,17 @@ margin-bottom: 20px;
 }
 .five #grid-3{
 width: 33.33%;
-background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)), url('Image/Rectangle 6.png');    
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)), url('Images/Rectangle 6.png');    
 margin-right: 18px;
 }
 .five #grid-4{
 width:33.33%;
-background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Image/Rectangle 7.png');    
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Images/Rectangle 7.png');    
 margin-right: 18px;
 }
 .five #grid-5{
 width: 33.33%;
-background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Image/Rectangle 9.png');
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Images/Rectangle 9.png');
 }
 .six{
 display: flex;
@@ -254,13 +254,13 @@ margin-bottom: 20px;
 
 }
 .six #grid-6{
-background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Image/Rectangle 11.png');   
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)),url('Images/Rectangle 11.png');   
 margin-right: 18px;
 width: 50%;
 }
 .six #grid-7{
 width: 50%;
-background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)), url('Image/Rectangle 10.png');    
+background-image: linear-gradient(rgba(19,19,24,0.2),rgba(19,19,24,0.2)), url('Images/Rectangle 10.png');    
 }
 .third  .kage{
  /* margin top can also be used    */
@@ -467,7 +467,7 @@ color: white;
 }
 .eleven{
 width: 57%;
-background-image: url(/Image/Rectangle\ 8\ \(1\).png);
+background-image: url(/Images/Rectangle\ 8\ \(1\).png);
 border-radius: 16px;
 background-position: center;
 background-size: cover;
